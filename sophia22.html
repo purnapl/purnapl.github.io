@@ -1,20 +1,29 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-<style>
-ul {
-    list-style-type: none;
-    margin: 2;
-    padding: 2;
-}
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Password Protected page</title>
+<script type="text/javascript">
+var s ="";
 
-li {
-    display: inline;
+while (s!= "561640")
+{
+s=prompt("please enter your password");
+if (s=="561640")
+{
+window.location.href="sophia.html"; //page to redirect if password entered is correct
+
 }
-</style>
+else
+{
+alert("Incorrect password. Shame on you.");
+
+}
+}
+</script>
 </head>
+
 <body>
-label for="pwd">Password:</label>
-<input type="password" id="pwd" name="pwd">
 </body>
 </html>
