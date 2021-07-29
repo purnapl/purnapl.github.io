@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Password Protected page</title>
+<script type="text/javascript">
+var s ="";
+
+while (s!= "80085")
+{
+s=prompt("please enter your password");
+if (s=="80085")
+{
+window.location.href="henhaus_recipes.html"; //page to redirect if password entered is correct
+
+}
+else
+{
+alert("Incorrect password. shame on you.");
+
+}
+}
+</script>
+</head>
+
+<body>
+</body>
+</html>
